@@ -51,7 +51,7 @@ section#edition {
 }
 
 #sidebar #branding h1 {
-  background-image: url('/logo-linuxfr-cadre-ombre.png') !important;
+  background-image: url('https://rawgithub.com/gleonet/gawan_css/master/logo-linuxfr-cadre-ombre.png') !important;
   max-width: 200px !important;
   margin-left: 1px;
 }
@@ -155,6 +155,8 @@ article .score, article .datePourCss {
   border-top: solid 1px #051C22;
   border-right: solid 1px #051C22;
   border-bottom: solid 1px #051C22;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
   max-width: 60px;
   margin-right: 2px;
 }
