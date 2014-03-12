@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+@import url("//linuxfr.org/assets/application.css");
+
+html, #top, div#toolbar, #bigfooter nav, #bigfooter #friends {
+  background: transparent;
+  background-color: #051C22;
+  color: #7C8293;
+}
+
+body, #site, #sidebar .box, #bigfooter, #sidebar {
+  background: transparent;
+  background-color: #6F7484;
+  color: #051C22;
+  border: none;
+}
+
+#site {
+  background: linear-gradient(to right,  #7C8293,  #707685 201px, #6F7484 50%);
+}
+
+#sidebar .box {
+  border-bottom: solid 1px #051C22;
+}
+
+section#container, section#edition {
+  background: transparent;
+  background-color: #4C575F;
+  color: #7C8293;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+section#edition {
+  padding-top: 3px;
+  margin-bottom: 5px;
+}
+
+.content a, .content a:visited, .content a:active, #chat a {
+  color: #082C6D;
+}
+
+.content a:hover {
+  color: #95AFDE;
+}
+
+#bigfooter {
+  border: none;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+#sidebar #branding h1 {
+  background-image: url('/logo-linuxfr-cadre-ombre.png') !important;
+  max-width: 200px !important;
+  margin-left: 1px;
+}
+
+.markItUp, .markItUpEditor {
+  border: solid 1px #051C22 !important;
+}
+
+.markItUpEditor {
+  background-color: #E2E2E2;
+}
+
+article, #sidebar .box h1, ul.threads > li.comment,
+form#new_comment, .markdown_cheatsheet, #wiki_help,
+div.new_content a, form input#logout[type="submit"],
+#comments #send-comment a, #comments #send-comment a:visited,
+#comments #follow-feed a, #comments #follow-feed a:visited,
+.toolbox .follow_feed a, .toolbox .follow_feed a:visited,
+form#new_comment input[type="submit"], #redaction #chat,
+button.submit_board, input.submit_board[type="submit"],
+button.add_para, button.add_link, button.create_news,
+input.add_para[type="submit"], input.add_link[type="submit"],
+input.create_news[type="submit"], .box input[type="submit"], 
+#tracker, #tracker tr td, body#stylesheets-edit #contents,
+main#contents, form#new_news, form#new_diary, form#new_post,
+form#new_poll, form#new_tracker, form#new_wiki_page {
+  background-color: #7C8293;
+  color: #051C22 !important;
+  border: solid 1px #051C22 !important;
+}
+
+main#contents {
+  padding: 12px;
+}
+
+#tracker tr th {
+  background-color: #051C22 !important;
+  color: #7C8293 !important;
+}
+
+#tracker a {
+  color: #082C6D !important;
+}
+
+#tracker a:hover {
+  color: #95AFDE !important;
+}
+
+.new_tracker {
+  background-color: #7C8293;
+  color: #051C22 !important;
+  border-radius: 3px;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+
+*:before, *:after {
+  -moz-box-sizing: border-box;
+}
+
+.new_tracker label {
+  width: 17% !important;
+  text-align: right !important;
+  float: left;
+}
+
+.new_tracker select {
+  margin-left: 15px;
+  min-width: 250px;
+}
+
+div.new_content a:hover, form input#logout[type="submit"]:hover,
+#comments #send-comment a:hover, #comments #follow-feed a:hover,
+.toolbox .follow_feed a:hover, form#new_comment input[type="submit"]:hover, 
+button:hover, button.submit_board:hover, input.submit_board[type="submit"]:hover,
+button.add_para:hover, button.add_link:hover, button.create_news:hover,
+input.add_para[type="submit"]:hover, input.add_link[type="submit"]:hover,
+input.create_news[type="submit"]:hover, .box input[type="submit"]:hover {
+  background-color: #051C22 !important;
+  color: #7C8293 !important;
+  border: solid 1px #051C22 !important;
+}
+
+.tags ul li .add_tag, #sidebar .insecure, #sidebar .secure,
+#sidebar .box ul, #sidebar .box ul li {
+  background-color: #6F7484 !important;
+}
+
+#sidebar .box ul li {
+  border-left: solid 1px #051C22;
+}
+
+#redaction article .score, #redaction article .datePourCss {
+  display: none !important;
+}
+
+article .score, article .datePourCss {
+  border: 0px;
+  background-color: #7C8293;
+  border: none;
+  border-top: solid 1px #051C22;
+  border-right: solid 1px #051C22;
+  border-bottom: solid 1px #051C22;
+  max-width: 60px;
+  margin-right: 2px;
+}
+
+#phare article .score, #phare article .datePourCss {
+  margin-right: 3px;
+}
+
+.order_navbar {
+  color: #7C8293;
+}
+
+.meta, .tags, .tag_in_place a, .actions, footer, .actions span,
+.actions a, .actions .button_to input, .actions .vote, .signature {
+  color: #353E45 !important;
+}
+
+#comments > p, .toolbox, .scroll {
+  color: #051C22;
+}
+
+li.comment > h2 {
+  background: transparent;
+  background-color:  #4C575F;
+  color: #051C22;
+}
+
+li.new-comment > h2 { 
+  background-color: #082C6D !important;
+  color: #7C8293;
+}
+
+li.comment .content {
+  border-left: 1px solid #051C22;
+}
+
+code {
+  background-color: #E2E2E2;
+}
+
+.content p img, .content img {
+  max-width: 800px;
+  max-height: none;
+}
+
+.current {
+  background-color: #7C8293;
+  color: #082C6D !important;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 6px;
+  padding-right: 0px;
+  padding-left: 2px;
+  border-radius: 3px;
+}
+
+.banner {
+  background-color: #051C22;
+  box-shadow: 0px 0px 25px #7C8293 inset, 0px 0px 20px rgba(76, 87, 95, 0.33) inset;
+  border-radius: 8px;
+}
