@@ -8,11 +8,24 @@ html, #top, div#toolbar, #bigfooter nav, #bigfooter #friends {
   color: #7C8293;
 }
 
-body, #site, #sidebar .box, #bigfooter, #sidebar {
+body, #site {
   background: transparent;
   background-color: #6F7484;
   color: #051C22;
   border: none;
+}
+
+#bigfooter {
+  background: transparent;
+  background-color: #7C8293;
+}
+
+#sidebar, #sidebar .box {
+  background: transparent !important;
+}
+
+body {
+  background: linear-gradient(#6F7484, #7C8293 801px);
 }
 
 #site {
@@ -74,7 +87,7 @@ form#new_comment input[type="submit"], #redaction #chat,
 button.submit_board, input.submit_board[type="submit"],
 button.add_para, button.add_link, button.create_news,
 input.add_para[type="submit"], input.add_link[type="submit"],
-input.create_news[type="submit"], .box input[type="submit"], 
+input.create_news[type="submit"], .box input[type="submit"],
 #tracker, #tracker tr td, body#stylesheets-edit #contents,
 main#contents, form#new_news, form#new_diary, form#new_post,
 form#new_poll, form#new_tracker, form#new_wiki_page {
@@ -125,7 +138,7 @@ main#contents {
 
 div.new_content a:hover, form input#logout[type="submit"]:hover,
 #comments #send-comment a:hover, #comments #follow-feed a:hover,
-.toolbox .follow_feed a:hover, form#new_comment input[type="submit"]:hover, 
+.toolbox .follow_feed a:hover, form#new_comment input[type="submit"]:hover,
 button:hover, button.submit_board:hover, input.submit_board[type="submit"]:hover,
 button.add_para:hover, button.add_link:hover, button.create_news:hover,
 input.add_para[type="submit"]:hover, input.add_link[type="submit"]:hover,
@@ -135,8 +148,7 @@ input.create_news[type="submit"]:hover, .box input[type="submit"]:hover {
   border: solid 1px #051C22 !important;
 }
 
-.tags ul li .add_tag, #sidebar .insecure, #sidebar .secure,
-#sidebar .box ul, #sidebar .box ul li {
+.tags ul li .add_tag, #sidebar .insecure, #sidebar .secure {
   background-color: #6F7484 !important;
 }
 
@@ -190,7 +202,7 @@ li.comment > h2 {
   color: #051C22;
 }
 
-li.new-comment > h2 { 
+li.new-comment > h2 {
   background-color: #082C6D !important;
   color: #7C8293;
 }
@@ -217,6 +229,10 @@ code {
   padding-right: 0px;
   padding-left: 2px;
   border-radius: 3px;
+}
+
+.poll.current {
+  background: transparent;
 }
 
 .banner {
