@@ -148,7 +148,7 @@ input.create_news[type="submit"]:hover, .box input[type="submit"]:hover {
   border: solid 1px #051C22 !important;
 }
 
-.tags ul li .add_tag, #sidebar .insecure, #sidebar .secure {
+.tags ul li .add_tag, #sidebar .insecure, #sidebar .secure, .tags ul li .remove_tag {
   background-color: #6F7484 !important;
 }
 
